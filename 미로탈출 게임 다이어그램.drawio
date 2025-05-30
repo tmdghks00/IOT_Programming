@@ -1,26 +1,44 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.1.1">
   <diagram name="페이지-1" id="XxxpSQrDGY3Lz6ars4wC">
-    <mxGraphModel dx="919" dy="2246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1657" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="8a5C9kc6SofKmOnc5kcL-7" value="게임 시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#FFF2CC;" vertex="1" parent="1">
+        <mxCell id="8a5C9kc6SofKmOnc5kcL-7" value="게임 시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#FFF2CC;" parent="1" vertex="1">
           <mxGeometry x="450" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8a5C9kc6SofKmOnc5kcL-8" value="게임 종료" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#FFF2CC;" vertex="1" parent="1">
-          <mxGeometry x="450" y="770" width="100" height="60" as="geometry" />
+        <mxCell id="8a5C9kc6SofKmOnc5kcL-8" value="게임 종료" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#FFF2CC;" parent="1" vertex="1">
+          <mxGeometry x="440" y="840" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8a5C9kc6SofKmOnc5kcL-10" value="미로 및 캐릭터 생성" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="1">
+        <mxCell id="8a5C9kc6SofKmOnc5kcL-10" value="미로 및 캐릭터 생성" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;" parent="1" vertex="1">
           <mxGeometry x="440" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8a5C9kc6SofKmOnc5kcL-14" value="Push switch 로 &lt;br&gt;캐릭터 이동" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="1">
+        <mxCell id="8a5C9kc6SofKmOnc5kcL-14" value="Push switch 로&lt;br&gt;이동 입력" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;" parent="1" vertex="1">
           <mxGeometry x="440" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8a5C9kc6SofKmOnc5kcL-15" value="난이도 선택" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="1">
+        <mxCell id="8a5C9kc6SofKmOnc5kcL-15" value="난이도 선택" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;" parent="1" vertex="1">
           <mxGeometry x="440" y="90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8a5C9kc6SofKmOnc5kcL-16" value="벽에 충돌 &lt;br&gt;했는가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="360" width="100" height="90" as="geometry" />
+        <mxCell id="8a5C9kc6SofKmOnc5kcL-16" value="벽에 충돌 &lt;br&gt;했는가?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" parent="1" vertex="1">
+          <mxGeometry x="450" y="350" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jROF-p8uHgDL0KWoTOzt-1" value="출구에 도달 &lt;br&gt;했는가?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="314" y="600" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jROF-p8uHgDL0KWoTOzt-2" value="시간이 &lt;br&gt;초과됐는가?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="470" y="600" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jROF-p8uHgDL0KWoTOzt-3" value="Buzzer 경고음 출력" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="570" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jROF-p8uHgDL0KWoTOzt-4" value="이동할 좌표 갱신" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="310" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jROF-p8uHgDL0KWoTOzt-5" value="Text LCD에&lt;br&gt;실패메시지 출력" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="530" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jROF-p8uHgDL0KWoTOzt-6" value="Text LCD에 &lt;br&gt;성공메시지 출력" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="320" y="730" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
